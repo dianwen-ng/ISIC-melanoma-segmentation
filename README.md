@@ -15,7 +15,8 @@ A sample of the images
 <img src="https://github.com/DW-Hwang/ISIC-melanoma-segmentation/blob/master/screenshots/image1.png" width= "840" height="350"/> 
 
 For the deep learning architecture, we implemented a U-Net model to perform our detection and semantic segmentation and the details of the computation and all the other information about the convolutional network can be found in `Medical Image Recognition: An Explanation and Hands-on Example on Convolutional Networks`. A view of the U-Net architecture is shown below
-<img src="https://github.com/DW-Hwang/ISIC-melanoma-segmentation/blob/master/screenshots/unet.png" width= "600" height="450"/>
+
+<img src="https://github.com/DW-Hwang/ISIC-melanoma-segmentation/blob/master/screenshots/unet.png" width= "640" height="450"/>
 
 During the construction of our model, we change the input shape to 224x224x3 as it is sufficient to preserve the information from the original resolution. 
 
@@ -23,7 +24,7 @@ The guide to the training can be seen in this [repo](https://github.com/DW-Hwang
 
 ## Results
 A sample result of our model is shown 
-<img src="https://github.com/DW-Hwang/ISIC-melanoma-segmentation/blob/master/screenshots/image2.png" width= "840" height="350"/> 
+<img src="https://github.com/DW-Hwang/ISIC-melanoma-segmentation/blob/master/screenshots/image2.png" width= "840" height="320"/> 
 
 Have a good day ahead!
 
