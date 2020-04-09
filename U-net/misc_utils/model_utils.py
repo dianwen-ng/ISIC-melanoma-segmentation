@@ -3,7 +3,7 @@ from models import backbone
 from paths import model_data_dir
 
 import keras
-from keras.models import load_model, model_from_json
+from tensorflow.keras.models import load_model, model_from_json
 from misc_utils.filename_utils import get_weights_filename
 from misc_utils.filename_utils import get_json_filename
 
